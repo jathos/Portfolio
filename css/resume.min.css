@@ -167,17 +167,23 @@ a:hover {
 
 .projects-wrapper {
     display: flex;
+    flex-direction: column;
+    gap: 10vh;
 }
 
 .project-item {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 20vw;
+    width: 100%;
 }
 
 .project-link {
     display: flex;
-    font-size: 20pt;
+    font-size: 25pt;
     align-self: center;
+    margin-left: 10px;
+    margin-bottom: 15px !important;
+}
+
+.project-p {
+    margin-left: 10px;
 }
