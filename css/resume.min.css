@@ -181,9 +181,29 @@ a:hover {
     font-size: 25pt;
     align-self: center;
     margin-left: 10px;
-    margin-bottom: 15px !important;
+    margin-bottom: 5px !important;
+}
+
+.github-link {
+    display: flex;
+    font-size: 14pt;
+    align-self: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .project-p {
     margin-left: 10px;
+}
+
+.github-wrapper {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.github-wrapper>p {
+    margin: 0;
+    font-size: 14pt;
 }
