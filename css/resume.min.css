@@ -207,3 +207,42 @@ a:hover {
     margin: 0;
     font-size: 14pt;
 }
+
+@media only screen and (max-width: 500px) {
+    .project-item {
+        flex-direction: column;
+    }
+
+    .project-thumb {
+        width: 50%;
+    }
+
+    .project-link {
+        font-size: 30pt;
+        margin-left: 0px;
+        text-decoration: underline;
+    }
+
+    .github-link {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        align-self: flex-start;
+        text-decoration: underline;
+    }
+
+    .github-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .github-wrapper>p {
+        font-size: 12pt;
+    }
+
+    .project-p {
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 14pt;
+    }
+}
